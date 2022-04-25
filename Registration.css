@@ -1,0 +1,18 @@
+.logscreen{
+    background-color: rgb(252, 252, 252);
+    top: 20% !important;
+    width: 50%;
+    height: 410px;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    padding: 3%;
+}
+
+.error{
+    color: rgb(226, 90, 53);
+}
+
+.gooderror{
+    color: rgb(49, 187, 44);
+}

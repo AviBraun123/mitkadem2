@@ -1,0 +1,35 @@
+
+
+.back{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(194, 194, 194);
+    z-index: -50;
+}
+
+.main_screen{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(70% 0, 100% 0, 100% 30%, 30% 100%, 0 100%, 0 70%);
+    background-color: rgb(155, 204, 170);
+    z-index: -40;
+}
+
+
+#logo{
+    position: absolute;
+    right: 1.5%;
+    bottom: 3%;
+    width: 18%;
+    height: inherit;
+    z-index: -30;
+}
+
+#title{
+    position: absolute;
+    left: 10%;
+    font-size: 400%;
+}
+
